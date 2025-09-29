@@ -1,4 +1,41 @@
 /*Ana Díez Díaz UO288302*/
-/*Estilos generales del proyecto MotoGP-Desktop*/
+
+/* Selector: body (especificidad: 0,0,1) */
+body {
+    background-color: #C8F3FD; /* fondo principal */
+    color: #0F2561; /* texto principal */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* Selector: header (especificidad: 0,0,1) */
+header {
+    background-color: #08C8F7;
+    padding: 1rem;
+}
+
+/* Selector: h1 (especificidad: 0,0,1) */
+h1 {
+    color: #F73708;
+    font-size: 2em;
+}
+
+/* Selector: nav (especificidad: 0,0,1) */
+nav {
+    color: #F73708;
+}
+
+/* Selector: nav a (especificidad: 0,0,2) */
+nav a {
+    color: #0F2561; /* para enlaces */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Selector: nav a:hover (especificidad: 0,0,3) */
+nav a:hover {
+    color: #000000; /* al pasar el mouse */
+}
+
 
 
