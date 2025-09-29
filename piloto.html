@@ -1,93 +1,153 @@
 <!DOCTYPE HTML>
 
 <html lang="es">
-<head>
-    <!-- Datos que describen el documento -->
-    <meta charset="UTF-8"/>
-    <title>MotoGP-Piloto</title>
-	<meta name ="author" content ="Ana Díez Díaz"/>
-	<meta name ="description" content ="Información acerca del piloto del proyecto de MotoGP-Desktop"/>
-	<meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas"/>
-	<meta name ="viewport" content ="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" type="text/css" href="estilo.css"/>
-</head>
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8">
+        <title>MotoGP-Piloto</title>
+        <meta name ="author" content ="Ana Díez Díaz">
+        <meta name ="description" content ="Información acerca del piloto del proyecto de MotoGP-Desktop">
+        <meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+        <link rel="icon" href="multimedia/favicon.ico">
+    </head>
 
-<body>
-    <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>MotoGP Desktop</h1>
-    <h2>Brad Binder</h2>
-    <nav>
-        <a href="index.html" title="Inicio">Inicio</a>
-        <a href="piloto.html" title="Información del piloto">Piloto</a>
-        <a href="circuito.html" title="Información del circuito">Circuito</a>
-        <a href="meteorologia.html" title="Información de meteorologia">Meteorologia</a>
-        <a href="clasificaciones.html" title="Información de clasificaciones">Clasificaciones</a>
-        <a href="juegos.html" title="Información de los juegos">Juegos</a>
-    </nav>
-    <p>Brad Binder (Potchefstroom, Sudáfrica, 11 de agosto de 1995) es un piloto sudafricano de motociclismo.
-    Ha sido campeón del Campeonato del Mundo de Motociclismo de Moto3 en 2016, y tercero y subcampeón de Moto2 en 2018 y 2019 respectivamente.
-    Desde 2020 compite en la categoría de MotoGP con el equipo Red Bull KTM Factory Racing, resultando quinto en 2023 y 2024 como mejor resultado.
-    Su hermano menor, Darryn, también es piloto en la división menor del Campeonato Mundial de Motociclismo.</p>
-    <picture>
-        <source media="(max-width:799px)"    
-        srcset="multimedia/brad_tablet.jpg">
-        <source media="(max-width:465px)"    
-        srcset="multimedia/brad_movil.jpg">
-        <source media="(min-width:800px)" 
-        srcset="multimedia/brad_monitor.jpg">
-        <img src="multimedia/brad_monitor.jpg" 
-        alt="Brad binder" />
-    </picture>
-    <p>Hemos querido incluir algunos datos sobre el piloto, en concreto: fecha de nacimiento, ciudad de nacimiento, altura, peso, equipo actual y edad</p>
-    <ul>
-        <li>11/08/1995</li>
-        <li>Potchefstroom</li>
-        <li>170cm</li>
-        <li>63kg</li>
-        <li>KTM</li>
-        <li>33</li>
-    </ul>
-    <p>A continuación se muestra una lista de los equipos a los que ha pertenecido Brad Binder</p>
-    <ol>
-        <li>RW Racing GP</li>
-        <li>Ambrogio Racing</li>
-        <li>Red Bull KTM Ajo</li>
-        <li>Red Bull KTM Factory Racing</li>
-    </ol>
-    <dl>
-        <dt>chicane</dt>
-            <dd>pole</dd>
-        <dt>tacómetro</dt>
-            <dd>control de tracción</dd>
-            <dd>ruedas</dd>
-    </dl>
-    <p>
-        Brad Binder comenzó su carrera en kartings en 2003. En 2005 pasa a las dos ruedas, de inmediato gana varios títulos en las categorías
-        de 50, 125 y 150cc. En 2008 debuta en el plano internacional, compitiendo en la Aprilia Superteens Series, una competencia británica.
-        En la primera carrera termina en el segundo lugar, pero el segunda carrera se cayó. En 2009 corre en la Red Bull Rookies Cup
-        concluyendo 14.º, en 2010 concluye 5.º y en 2011 7.º.
-    </p>
-    <p>A continuación se presenta un resumen de los resultados obtenidos por Brad Binder durante la temporada 2024</p>
-    <table>
-        <caption>Resultados temporada 2024 - Brad Binder</caption>
-        <tr>
-            <th scope="col" id="Piloto">Piloto</th>
-            <th scope="col" id="Puntos">Puntos obtenidos</th>
-            <th scope="col" id="Posición">Posición clasificación final de la competición</th>
-            <th scope="col" id="Poles">Poles</th>
-            <th scope="col" id="Victorias">Victorias</th>
-            <th scope="col" id="Podios">Podios</th>
-        </tr>
-        <tr>
-            <th scope="row" id="Brad_Binder" headers="Piloto">Brad Binder</th>
-            <td headers="Brad_Binder Puntos">217</td>
-            <td headers="Brad_Binder Posición">5</td>
-            <td headers="Brad_Binder Poles">0</td>
-            <td headers="Brad_Binder Victorias">0</td>
-            <td headers="Brad_Binder Podios">1</td>
-        </tr>
-    </table>
+    <body>
+        <!-- Cabecera del sitio -->
+        <header>
+            <h1><a href="index.html">MotoGP Desktop</a></h1>
+            <h2>Brad Binder</h2>
+            <nav>
+                <a href="index.html" title="Inicio">Inicio</a>
+                <a href="piloto.html" title="Información del piloto">Piloto</a>
+                <a href="circuito.html" title="Información del circuito">Circuito</a>
+                <a href="meteorologia.html" title="Información de meteorologia">Meteorologia</a>
+                <a href="clasificaciones.html" title="Información de clasificaciones">Clasificaciones</a>
+                <a href="juegos.html" title="Información de los juegos">Juegos</a>
+            </nav>
+        </header>
 
-    <p><a href="https://www.motogp.com" title="web de referencia para crear la tabla">Motogp.com</a></p>
-    <p><a href="https://es.wikipedia.org/wiki/Brad_Binder" title="wikipedia del piloto">Wikipedia: Brad Binder</a></p>
-</body>
+        <p class="breadcrumb">Estás en: <a href="index.html">Inicio</a> >> Piloto</p>
+
+        <!-- Contenido principal específico de este documento -->
+        <main>
+            <section>
+                <h2>Biografía</h2>
+                <p>Brad Binder (Potchefstroom, Sudáfrica, 11 de agosto de 1995) es un piloto sudafricano de motociclismo.
+                Ha sido campeón del Campeonato del Mundo de Motociclismo de Moto3 en 2016, y tercero y subcampeón de Moto2 en 2018 y 2019 respectivamente.
+                Desde 2020 compite en la categoría de MotoGP con el equipo Red Bull KTM Factory Racing, resultando quinto en 2023 y 2024 como mejor resultado.
+                Su hermano menor, Darryn, también es piloto en la división menor del Campeonato Mundial de Motociclismo.</p>
+                <picture>
+                    <source media="(min-width: 800px)" srcset="multimedia/brad_monitor.jpg">
+                    <source media="(max-width: 799px)" srcset="multimedia/brad_tablet.jpg">
+                    <source media="(max-width: 465px)" srcset="multimedia/brad_movil.jpg">
+                    <img src="multimedia/brad_monitor.jpg" alt="Brad Binder">
+                </picture>
+            </section>
+
+            <!-- Información personal del piloto (aside porque es tangencial) -->
+            <aside>
+                <h2>Datos personales</h2>
+                <p>Hemos querido incluir algunos datos sobre el piloto, en concreto: fecha de nacimiento, ciudad de nacimiento, altura, peso, equipo actual y edad</p>
+                <ul>
+                    <li>11/08/1995</li>
+                    <li>Potchefstroom</li>
+                    <li>170cm</li>
+                    <li>63kg</li>
+                    <li>KTM</li>
+                    <li>33</li>
+                </ul>
+            </aside>
+
+             <!-- Sección de vídeo -->
+            <section>
+                <h2>Vídeo de Brad Binder</h2>
+                <video controls preload="auto">
+                    <source src="multimedia/bradbinder.mp4"
+                        type="video/mp4">
+                    <source src="multimedia/bradbinder.webm"
+                        type="video/webm">
+                </video>
+            </section>
+
+            <!-- Sección de equipos -->
+            <section>
+                <h2>Equipos</h2>
+                <p>A continuación se muestra una lista de los equipos a los que ha pertenecido Brad Binder</p>
+                <ol>
+                    <li>RW Racing GP</li>
+                    <li>Ambrogio Racing</li>
+                    <li>Red Bull KTM Ajo</li>
+                    <li>Red Bull KTM Factory Racing</li>
+                </ol>
+            </section>
+
+            <!-- Sección de audio -->
+            <section>
+                <h2>Audio-definición de tacómetro</h2>
+                <audio controls>
+                    <source src="multimedia/tacometro.mp3"
+                        type="audio/mpeg">
+                    <source src="multimedia/tacometro.wav"
+                        type="audio/wav">
+                </audio>
+            </section>
+            
+            <!-- Sección de términos -->
+            <section>
+                <h2>Glosario de términos</h2>
+                <dl>
+                    <dt>Chicane</dt>
+                    <dd>Pole</dd>
+                    <dt>Tacómetro</dt>
+                    <dd>Control de tracción</dd>
+                    <dd>Ruedas</dd>
+                </dl>
+            </section>
+
+            <!-- Sección de carrera deportiva -->
+            <section>
+                <h2>Carrera deportiva</h2>
+                <p>
+                    Brad Binder comenzó su carrera en kartings en 2003. En 2005 pasa a las dos ruedas, de inmediato gana varios títulos en las categorías
+                    de 50, 125 y 150cc. En 2008 debuta en el plano internacional, compitiendo en la Aprilia Superteens Series, una competencia británica.
+                    En la primera carrera termina en el segundo lugar, pero el segunda carrera se cayó. En 2009 corre en la Red Bull Rookies Cup
+                    concluyendo 14.º, en 2010 concluye 5.º y en 2011 7.º.
+                </p>
+            </section>
+
+            <!-- Sección de resultados temporada 2024-->
+            <section>
+                <h2>Temporada 2024</h2>
+                <p>A continuación se presenta un resumen de los resultados obtenidos por Brad Binder durante la temporada 2024</p>
+                <table>
+                    <caption>Resultados temporada 2024 - Brad Binder</caption>
+                    <tr>
+                        <th scope="col" id="col-piloto">Piloto</th>
+                        <th scope="col" id="col-puntos">Puntos obtenidos</th>
+                        <th scope="col" id="col-posicion">Posición clasificación final de la competición</th>
+                        <th scope="col" id="col-poles">Poles</th>
+                        <th scope="col" id="col-victorias">Victorias</th>
+                        <th scope="col" id="col-podios">Podios</th>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="row-bradbinder">Brad Binder</th>
+                        <td headers="row-bradbinder col-puntos">217</td>
+                        <td headers="row-bradbinder col-posicion">5</td>
+                        <td headers="row-bradbinder col-poles">0</td>
+                        <td headers="row-bradbinder col-victorias">0</td>
+                        <td headers="row-bradbinder col-podios">1</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- Sección de referencias -->
+            <section>
+                <h2>Referencias/Bibliografía</h2>
+                <p><a href="https://www.motogp.com" title="Web de referencia para crear la tabla">Motogp.com</a></p>
+                <p><a href="https://es.wikipedia.org/wiki/Brad_Binder" title="Wikipedia del piloto">Wikipedia: Brad Binder</a></p>
+            </section>
+        </main>
+    </body>
+</html>
